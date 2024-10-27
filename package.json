@@ -1,0 +1,16 @@
+{
+  "name": "hackru",
+  "version": "1.0.0",
+  "description": "hackru cybersec project",
+  "main": "main.js",
+  "scripts": {
+    "start": "concurrently \"python main.py\" \"electron .\"",
+    "test": "node main.js"
+  },
+  "author": "harshil vejendla",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1",
+    "electron": "^33.0.2"
+  }
+}
